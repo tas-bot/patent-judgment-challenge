@@ -1,0 +1,26 @@
+{
+  "handle": "anon-your-handle",
+  "disposition": "allowance | final_rejection | non_final_rejection のいずれか",
+  "applied_statutes": ["29-2"],
+  "cited_references": ["JP2009244858A"],
+  "cited_paragraphs": {
+    "JP2009244858A": [1]
+  },
+  "reasons": {
+    "disposition_reason": "処分を出した理由（40字以上）",
+    "inventive_step_reason": "進歩性判断の理由：引用文献の組み合わせ動機付けと阻害要因の検討（40字以上）"
+  },
+  "ai_draft_evaluation": {
+    "disposition": "下書きの disposition の値（そのまま記載）",
+    "applied_statutes": ["下書きの applied_statutes（そのまま記載）"],
+    "cited_references": ["下書きの cited_references（そのまま記載）"],
+    "targets": {
+      "/disposition": "accept または reject",
+      "/applied_statutes": "accept または reject",
+      "/cited_references": "accept または reject",
+      "/claim_chart": "accept または reject"
+    },
+    "reasons": "評価理由（必須）",
+    "corrections": "reject にした場合の修正案（任意）"
+  }
+}
